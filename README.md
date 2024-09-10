@@ -90,11 +90,15 @@ BodyQ
 
 #### Plan Workout
 
-![](info_data/Plan%20Workouts.png)
+![](info_data/Plan%20Workout.png)
 
 #### Track Calories
 
+![](info_data/Track%20Calories.png.png)
+
 #### Show Analytics
+
+![](info_data/Show%20Analytics.png)
 
 #### Explore Workouts
 
