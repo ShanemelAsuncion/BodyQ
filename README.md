@@ -94,7 +94,7 @@ BodyQ
 
 #### Track Calories
 
-![](info_data/Track%20Calories.png.png)
+![](info_data/Track%20Calories.png)
 
 #### Show Analytics
 
