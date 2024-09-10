@@ -86,11 +86,11 @@ BodyQ
 
 #### Manage goals
 
-![](info_data/Manage Goals.png)
+![](info_data/Manage%20Goals.png)
 
 #### Plan Workout
 
-![](info_data/Plan Workouts.png)
+![](info_data/Plan%20Workouts.png)
 
 #### Track Calories
 
