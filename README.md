@@ -59,7 +59,6 @@ BodyQ
 - SignUp
 - Dashboard
 - Manage goals
-- Account Details
 - Plan Workout
 - Track Calories
 - Show Analytics
@@ -87,9 +86,11 @@ BodyQ
 
 #### Manage goals
 
-#### Account Details
+![](info_data/Manage Goals.png)
 
 #### Plan Workout
+
+![](info_data/Plan Workouts.png)
 
 #### Track Calories
 
@@ -104,6 +105,12 @@ BodyQ
 ### Endpoints
 
 ### Auth
+
+- JWT auth
+  - Before adding auth, all API requests will be using a fake user with id 1
+  - Added after core features have first been implemented
+  - Store JWT in localStorage, remove when a user logs out
+  - Add states for logged in showing different UI in places listed in mockups
 
 ## Roadmap
 
