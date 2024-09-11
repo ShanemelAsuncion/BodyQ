@@ -57,6 +57,7 @@ BodyQ
 
 - Login
 - SignUp
+- Setup
 - Dashboard
 - Manage goals
 - Plan Workout
@@ -64,9 +65,8 @@ BodyQ
 - Show Analytics
 - Explore Workouts
 - Update Measurements
-- Setup
 
-### Mockups
+### Mockups - Low Fidelity
 
 #### Login Page
 
@@ -102,7 +102,11 @@ BodyQ
 
 #### Explore Workouts
 
+![](info_data/Explore%20Workouts.png)
+
 #### Update Measurements
+
+![](info_data/Update%20Measurements.png)
 
 ## Data
 
