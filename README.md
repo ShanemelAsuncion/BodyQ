@@ -109,6 +109,8 @@ BodyQ
 
 ## Data
 
+[SQL Design File](https://drive.google.com/file/d/1QH10JqEjV8PLc5w_luEWiiWP7e-KX46b/view?usp=sharing)
+
 ### Endpoints
 
 **POST /users/register**
