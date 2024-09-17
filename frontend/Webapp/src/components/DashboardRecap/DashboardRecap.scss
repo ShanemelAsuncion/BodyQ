@@ -1,0 +1,27 @@
+.recap{
+    background-color: $primary;
+    margin-bottom: 2.5rem;
+    border-radius: 0.3125rem;
+    display: block;
+    
+  
+    &-heading{
+        @include align-items-center;
+        gap: 12px;
+        margin-bottom: 1.75rem;
+    }
+
+    &-recap{
+        margin-top: 1.25rem;
+    }
+
+    &-item{
+        @include dt-body-medium;
+        list-style: none;
+    }
+
+    &-list{
+        @include flex-row;
+        justify-content: space-around;
+    }
+}

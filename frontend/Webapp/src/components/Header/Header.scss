@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 5%;
+    
+
+    &__logo{
+        @include justifyContent-alignItems-center;
+        gap: 0.625rem;
+
+        &-img{
+            width: 1.875rem;
+        }
+    }
+
+    &__navlinks{
+        @include justifyContent-alignItems-center;
+        gap: 1.5rem;
+    }
+}

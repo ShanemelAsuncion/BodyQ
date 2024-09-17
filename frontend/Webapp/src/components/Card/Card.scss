@@ -1,0 +1,36 @@
+.card {
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 200px; 
+    padding: 20px; 
+    background-color: $white;
+    transition: box-shadow 0.3s ease;
+    @include dt-body-small;
+    text-align: center;
+
+    &:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    &.card-image {
+        .card-image {
+            width: 100%; 
+            height: auto; 
+        }
+    }
+
+
+    .card-title {
+        font-size: 14px; 
+        font-weight: 600;
+        margin-bottom: 8px; 
+    }
+
+    .card-text {
+        font-size: 1rem; 
+    
+    }
+    
+}

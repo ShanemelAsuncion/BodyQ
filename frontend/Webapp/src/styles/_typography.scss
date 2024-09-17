@@ -1,0 +1,24 @@
+@mixin dt-page-header {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+@mixin dt-sub-header {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+@mixin dt-labels-links-buttons {
+    font-size: .875rem;
+    line-height: 1.375rem;
+}
+@mixin dt-body-large {
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+@mixin dt-body-medium {
+    font-size: .875rem;
+    line-height: 1.375rem;
+}
+@mixin dt-body-small {
+    font-size: .75rem;
+    line-height: 1.125rem;
+}

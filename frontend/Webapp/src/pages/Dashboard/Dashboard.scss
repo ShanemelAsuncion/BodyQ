@@ -1,0 +1,41 @@
+.dashboard{
+    margin: 0 5%;
+
+    &__header{
+        margin: 2rem 0;
+    }
+
+    &__details{
+        background-color: $primary;
+        margin-bottom: 2.5rem;
+        padding: 2rem 4rem;
+        border-radius: 5px;
+        display: block;
+        
+        &-heading{
+            @include align-items-center;
+            gap: 12px;
+        }
+
+        &-recap{
+            margin-top: 20px;
+        }
+
+        &-item{
+            @include dt-body-medium;
+            list-style: none;
+        }
+
+        &-list{
+            @include flex-row;
+            justify-content: space-around;
+        }
+
+    }
+
+    &__todo{
+        &-heading{
+            margin-bottom: 20px;
+        }
+    }
+}
