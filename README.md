@@ -73,39 +73,39 @@ BodyQ
 
 #### Login Page
 
-![](info_data/Login.png)
+![](wireframes/Login.png)
 
 #### SignUp Page
 
-![](info_data/Signup.png)
+![](wireframes/Signup.png)
 
 #### Setup Page
 
-![](info_data/Setup.png)
+![](wireframes/Setup.png)
 
 #### Dashboard
 
-![](info_data/Dashboard.png)
+![](wireframes/Dashboard.png)
 
 #### Manage goals
 
-![](info_data/Manage%20Goals.png)
+![](wireframes/Manage%20Goals.png)
 
 #### Plan Workout
 
-![](info_data/Plan%20Workout.png)
+![](wireframes/Plan%20Workout.png)
 
 #### Track Calories
 
-![](info_data/Track%20Calories.png)
+![](wireframes/Track%20Calories.png)
 
 #### Explore Workouts
 
-![](info_data/Explore%20Workouts.png)
+![](wireframes/Explore%20Workouts.png)
 
 #### Update Measurements
 
-![](info_data/Update%20Measurements.png)
+![](wireframes/Update%20Measurements.png)
 
 ## Data
 
