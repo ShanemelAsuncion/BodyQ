@@ -1,0 +1,15 @@
+.account{
+    flex-direction: column;
+    @include justifyContent-alignItems-center;
+    padding: 400px;
+    background-color: $primary;
+    
+
+    &__btn{
+        margin: 40px;
+        padding: 20px 40px;
+        background-color: $secondary;
+        font-weight: 600;
+        width: 60%;
+    }
+}
