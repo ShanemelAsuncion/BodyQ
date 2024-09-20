@@ -4,6 +4,7 @@ import knex from "knex";
 import config from "./knexfile.js";
 import "dotenv/config";
 import fitbitRouter from "./routes/fitbit.js";
+import exerciseRouter from "./routes/workouts.js"
 
 
 // Initialize Knex with the development configuration
@@ -23,7 +24,7 @@ app.use((req, res, next) => {
 });
 
 // Use routes
-// app.use("/workouts", workoutRoute); 
+app.use("/workouts", exerciseRouter); 
 // app.use("/measure", measureRoute);
 // app.use("/calories", caloriesRoute);
 // app.use("/plan", planRoute);
