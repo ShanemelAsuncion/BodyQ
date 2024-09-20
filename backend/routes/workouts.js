@@ -6,10 +6,9 @@ const router = express.Router();
 
 // Route to fetch workouts data based on the muscle query
 router.get('/muscle/:q', async (req, res) => {
-    const { q } = req.params; // Extract query parameter from URL
+    const { q } = req.params; 
     try {
-        const accessToken = process.env.API_NINJA_TOKEN; // Use access token from .env
-    
+        const accessToken = process.env.API_NINJA_TOKEN; 
         const headers = {
           "X-Api-Key": `${accessToken}`,
         };
@@ -17,13 +16,9 @@ router.get('/muscle/:q', async (req, res) => {
         // Fetch exercise data from API Ninjas
         const exercisesResponse = await axios.get(
           `https://api.api-ninjas.com/v1/exercises?muscle=${q}`,
-          { headers } // Pass the headers in the request
+          { headers } 
         );
-    
-        // Log the response data for debugging
-        console.log(exercisesResponse.data);
-    
-        // Send only the data (not the entire response object) as JSON
+
         res.json(exercisesResponse.data);
         
     } catch (error) {
@@ -33,11 +28,11 @@ router.get('/muscle/:q', async (req, res) => {
 });
 
 
-// Route to fetch workouts data based on the muscle query
+// Route to fetch workouts data based on the type query
 router.get('/type/:q', async (req, res) => {
-    const { q } = req.params; // Extract query parameter from URL
+    const { q } = req.params; 
     try {
-        const accessToken = process.env.API_NINJA_TOKEN; // Use access token from .env
+        const accessToken = process.env.API_NINJA_TOKEN; 
     
         const headers = {
           "X-Api-Key": `${accessToken}`,
@@ -46,13 +41,8 @@ router.get('/type/:q', async (req, res) => {
         // Fetch exercise data from API Ninjas
         const exercisesResponse = await axios.get(
           `https://api.api-ninjas.com/v1/exercises?type=${q}`,
-          { headers } // Pass the headers in the request
+          { headers } 
         );
-    
-        // Log the response data for debugging
-        console.log(exercisesResponse.data);
-    
-        // Send only the data (not the entire response object) as JSON
         res.json(exercisesResponse.data);
         
     } catch (error) {
@@ -60,11 +50,11 @@ router.get('/type/:q', async (req, res) => {
       res.status(500).json({ error: 'Failed to fetch API Ninja exercises data' });
     }
 });
-// Route to fetch workouts data based on the muscle query
+// Route to fetch workouts data based on the difficulty query
 router.get('/difficulty/:q', async (req, res) => {
-    const { q } = req.params; // Extract query parameter from URL
+    const { q } = req.params; 
     try {
-        const accessToken = process.env.API_NINJA_TOKEN; // Use access token from .env
+        const accessToken = process.env.API_NINJA_TOKEN; 
     
         const headers = {
           "X-Api-Key": `${accessToken}`,
@@ -73,13 +63,8 @@ router.get('/difficulty/:q', async (req, res) => {
         // Fetch exercise data from API Ninjas
         const exercisesResponse = await axios.get(
           `https://api.api-ninjas.com/v1/exercises?difficulty=${q}`,
-          { headers } // Pass the headers in the request
+          { headers }
         );
-    
-        // Log the response data for debugging
-        console.log(exercisesResponse.data);
-    
-        // Send only the data (not the entire response object) as JSON
         res.json(exercisesResponse.data);
         
     } catch (error) {

@@ -3,8 +3,9 @@ import cors from "cors";
 import knex from "knex";
 import config from "./knexfile.js";
 import "dotenv/config";
-import fitbitRouter from "./routes/fitbit.js";
-import exerciseRouter from "./routes/workouts.js"
+import fitbitRoute from "./routes/fitbit.js";
+import exerciseRoute from "./routes/workouts.js"
+import caloriesRoute from "./routes/calories.js"
 
 
 // Initialize Knex with the development configuration
@@ -24,12 +25,12 @@ app.use((req, res, next) => {
 });
 
 // Use routes
-app.use("/workouts", exerciseRouter); 
+app.use("/workouts", exerciseRoute); 
 // app.use("/measure", measureRoute);
-// app.use("/calories", caloriesRoute);
+app.use("/calories", caloriesRoute);
 // app.use("/plan", planRoute);
 // app.use("/goals", workoutRoute);
-app.use('/fitbit', fitbitRouter);
+app.use('/fitbit', fitbitRoute);
 
 
 app.listen(PORT, () => {
