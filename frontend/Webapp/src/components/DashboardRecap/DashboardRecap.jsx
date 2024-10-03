@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../../components/Card/Card.jsx'
+import Card from '../Card/Card.jsx'
 import { LocalFireDepartment, DirectionsRun, LocalDining } from '@mui/icons-material';
 import "./DashboardRecap.scss"
 import Avatar from '@mui/material/Avatar';
@@ -22,14 +22,14 @@ function DashboardRecap() {
         <div className='recap-details'></div>
             <ul className='recap-list'>
                 <li className='recap-item'> 
-                <Card width='200px' height='150px'>
+                    <Card width='200px' height='150px'>
                         <LocalFireDepartment  sx={{ fontSize: 60 }}/> 
                         <p className='card-title'>Energy burned:</p>
                         <p>{stats.energyBurned} kcal</p>
                     </Card>
                 </li>
                 <li className='recap-item'>
-                <Card width='200px' height='150px'>
+                    <Card width='200px' height='150px'>
                         <DirectionsRun sx={{ fontSize: 60 }}/>
                         <p className='card-title'>Steps:</p>
                         <p>{stats.steps} kcal</p>
